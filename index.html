@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <script src="https://kit.fontawesome.com/0eddd82adf.js" crossorigin="anonymous"></script>
+    <meta charset="utf-8">
+    <title>Main Page</title>
+    <style>
+    body{
+    margin:0;
+    }
+    @import url('https://fonts.googleapis.com/css2?family=Song+Myung&display=swap');
+    .container {
+    position: relative;
+    text-align: center;
+    color: black;
+    } 
+    a {
+    color : white;
+    text-decoration: none;
+    }
+    .top-left {
+    position: absolute;
+    top: 5%;
+    left: 4%;
+    transform: translate(3%, -50%);
+    font-family: 'Song Myung', serif;
+    font-size: 15px;
+    color:white;
+    }
+    .top-centered {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display:flex;
+    flex-direction: row;
+    gap:50px;
+    color:white;
+    font-family: 'Song Myung', serif;
+    font-size: 10px;
+    }
+    .parent {
+    position: relative;
+    top: 0;
+    left: 0;
+    }
+    .image3 {
+    position: relative;
+    top: 0;
+    left: 0;
+    }
+    .allteam {
+    position: absolute;
+    top: 90%;
+    left: 50%; transform: translate(-50%, -50%);
+    }
+    .aboutus {
+    position: absolute;
+    top: 75%;
+    left: 27.5%; transform: translate(-50%, -50%);
+    }
+    .video1 {
+    position: absolute;
+    top: 42.8%;
+    left: 50%; transform: translate(-50%, -50%);
+    }
+    .regi {
+    position: absolute;
+    top: 80%;
+    left: 50%; transform: translate(-50%, -50%);
+    }
+    </style>
+  </head>
+  <body>
+    <!-- 최상단 --> 
+    <div class="container">
+        <img src="1.png" style="width:100%;" height="300px">
+        <div class="top-centered">
+            <div><a href="index.html">Home</a></div>   <div>About us</div>    <div><a href="ai edu(styled).html">AI Education</a></div>    <div><a href="our team(styled).html">Team</a></div>    <div><a href="contact(styled).html">Contact</a></div>    
+        </div>
+
+        <div class="top-left">
+            <div><a href="index.html">AI TECH PLAY</a></div>
+        </div>
+    </div>
+
+    <!-- ABOUT US --> 
+    <div class="container">
+        <div class="parent">
+            <img src="about us.png" width=100%; height="500px"/>
+        </div>
+  
+        <div class="aboutus">
+        <button>자세히 보기 -></button>    
+        </div>
+    </div>
+
+    <!-- OUR SOLUTIONS --> 
+    <div class="container">
+        <div class="parent">
+            <img src="our solutions.png" width=100%; height="1200px"/>
+
+            <iframe class="video1" width="52.5%" height="43%"
+            src="https://youtube.com/embed/l0gTIsQmbY8">
+            </iframe>
+    </div>
+
+    <!--OUR TEAM -->    
+    <div class="container">
+        <div class="parent">
+        <img class="image3" src="C:\Users\hanat\OneDrive\바탕 화면\outta\our team.png" width=100%; height="800px"/>
+        </div>
+      
+        <div class="allteam">
+        <button><a href="our team(styled).html" style="color:blue;">모든 팀원 만나보기 -></a></button>    
+        </div>
+    </div>
+
+    <!--OVERVIEW-->
+    <img src="overview.png" style="width:100%;" height="800px"> 
+
+    <!--REGISTRATION-->
+    <div class="container">
+        <div class="parent">
+            <img src="regi.png" width=100%; height="700px"/>
+        </div>
+  
+        <div class="regi">
+        <button>사전 등록 하러가기 -></button>    
+        </div>
+    </div>
+    <!--최하단-->
+    <div class="container">
+        <div class="parent">
+            <img src="copyright.png" width=100%; height="50px"/>
+        </div>
+  </body>
+</html>
